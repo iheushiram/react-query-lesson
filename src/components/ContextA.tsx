@@ -1,7 +1,7 @@
 import { FC } from 'react'
 import { useStateContext } from '../context/StateProvider'
 
-export const ContextA = () => {
+export const ContextA: FC = () => {
   const { dark, setDark } = useStateContext()
   console.log('rendered ContextA')
   return (
